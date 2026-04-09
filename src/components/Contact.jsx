@@ -23,7 +23,7 @@ function Contact() {
                   rel="noopener noreferrer"
                   className="location-link"
                 >
-                  MITTE I DIRCKSENSTRASSE 47, 10178 BERLIN
+                  MITTE I DIRCKSENSTRASSE 47
                 </a>
               </h3>
               <p className="location-address">
@@ -33,7 +33,7 @@ function Contact() {
                   rel="noopener noreferrer"
                   className="location-link"
                 >
-                  MITTE I DIRCKSENSTRASSE 47, 10178 BERLIN
+                  10178 BERLIN
                 </a>
               </p>
               <p>
@@ -67,7 +67,7 @@ function Contact() {
                   rel="noopener noreferrer"
                   className="location-link"
                 >
-                  CHARLOTTENBURG I SAVIGNYPLATZ 11, 10623 BERLIN
+                  CHARLOTTENBURG I SAVIGNYPLATZ 11
                 </a>
               </h3>
               <p className="location-address">
@@ -77,7 +77,7 @@ function Contact() {
                   rel="noopener noreferrer"
                   className="location-link"
                 >
-                  CHARLOTTENBURG I SAVIGNYPLATZ 11, 10623 BERLIN
+                  10623 BERLIN
                 </a>
               </p>
               <p>

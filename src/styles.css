@@ -1028,12 +1028,12 @@ section {
 
 .location-name {
   font-family: var(--font-sans);
-  font-size: clamp(24px, 3vw, 32px);
+  font-size: clamp(20px, 2.2vw, 28px);
   font-weight: 700;
   color: var(--black);
   text-transform: uppercase;
   margin-bottom: var(--spacing-xs);
-  letter-spacing: 0.02em;
+  letter-spacing: 0.01em;
 }
 
 .location-name a {
@@ -1043,12 +1043,12 @@ section {
 
 .location-address {
   font-family: var(--font-sans);
-  font-size: clamp(18px, 2.5vw, 24px);
+  font-size: clamp(15px, 1.6vw, 18px);
   font-weight: 400;
   color: var(--black);
   text-transform: uppercase;
   margin-bottom: var(--spacing-sm);
-  letter-spacing: 0.02em;
+  letter-spacing: 0.01em;
 }
 
 .location-link {
