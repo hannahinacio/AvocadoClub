@@ -28,7 +28,7 @@ function Footer() {
           <h3 className="footer-heading">Follow Us</h3>
           <div className="footer-social">
             <a 
-              href="https://instagram.com" 
+              href="https://www.instagram.com/avocadoclub.berlin/" 
               target="_blank" 
               rel="noopener noreferrer" 
               className="footer-link"
@@ -36,7 +36,7 @@ function Footer() {
               Instagram
             </a>
             <a 
-              href="https://facebook.com" 
+              href="https://www.facebook.com/avocadoclubberlin" 
               target="_blank" 
               rel="noopener noreferrer" 
               className="footer-link"

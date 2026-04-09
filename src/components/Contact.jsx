@@ -18,22 +18,22 @@ function Contact() {
             <div className="contact-item">
               <h3 className="location-name">
                 <a 
-                  href="https://www.google.com/maps/search/?api=1&query=Dircksenstrasse+47,+10178+Berlin"
+                  href="https://www.google.com/maps/search/?api=1&query=Mitte+Dircksenstrasse+47,+10178+Berlin"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="location-link"
                 >
-                  DIRCKSENSTRASSE 47
+                  MITTE I DIRCKSENSTRASSE 47, 10178 BERLIN
                 </a>
               </h3>
               <p className="location-address">
                 <a 
-                  href="https://www.google.com/maps/search/?api=1&query=Dircksenstrasse+47,+10178+Berlin"
+                  href="https://www.google.com/maps/search/?api=1&query=Mitte+Dircksenstrasse+47,+10178+Berlin"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="location-link"
                 >
-                  10178 BERLIN
+                  MITTE I DIRCKSENSTRASSE 47, 10178 BERLIN
                 </a>
               </p>
               <p>
@@ -62,22 +62,22 @@ function Contact() {
             <div className="contact-item">
               <h3 className="location-name">
                 <a 
-                  href="https://www.google.com/maps/search/?api=1&query=Kantstrasse+47,+10178+Berlin"
+                  href="https://www.google.com/maps/search/?api=1&query=Charlottenburg+Savignyplatz+11,+10623+Berlin"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="location-link"
                 >
-                  KANTSTRASSE 47
+                  CHARLOTTENBURG I SAVIGNYPLATZ 11, 10623 BERLIN
                 </a>
               </h3>
               <p className="location-address">
                 <a 
-                  href="https://www.google.com/maps/search/?api=1&query=Kantstrasse+47,+10178+Berlin"
+                  href="https://www.google.com/maps/search/?api=1&query=Charlottenburg+Savignyplatz+11,+10623+Berlin"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="location-link"
                 >
-                  10178 BERLIN
+                  CHARLOTTENBURG I SAVIGNYPLATZ 11, 10623 BERLIN
                 </a>
               </p>
               <p>
