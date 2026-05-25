@@ -46,12 +46,13 @@ function Contact() {
               <div className="hours-list">
                 <div className="hours-row">
                   <span className="hours-day">Monday - Friday</span>
-                  <span className="hours-time">10:00 – 22:00</span>
+                  <span className="hours-time">10:00 – 16:00, 17:00 – 22:00</span>
                 </div>
                 <div className="hours-row">
                   <span className="hours-day">Saturday - Sunday</span>
                   <span className="hours-time">10:00 – 18:00</span>
                 </div>
+                <p className="hours-note">Kitchen closes at 21:00</p>
               </div>
             </div>
           </div>
@@ -81,7 +82,7 @@ function Contact() {
                 </a>
               </p>
               <p>
-                <a href="tel:03022325570">03022325570</a>
+                <a href="tel:03079302266">030 79302266</a>
               </p>
             </div>
 
@@ -89,13 +90,14 @@ function Contact() {
               <h3>Opening Hours</h3>
               <div className="hours-list">
                 <div className="hours-row">
-                  <span className="hours-day">Monday - Friday</span>
+                  <span className="hours-day">Monday - Saturday</span>
                   <span className="hours-time">10:00 – 22:00</span>
                 </div>
                 <div className="hours-row">
-                  <span className="hours-day">Saturday - Sunday</span>
+                  <span className="hours-day">Sunday</span>
                   <span className="hours-time">10:00 – 18:00</span>
                 </div>
+                <p className="hours-note">Kitchen closes at 21:00</p>
               </div>
             </div>
           </div>

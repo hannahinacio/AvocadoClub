@@ -1112,6 +1112,19 @@ section {
   color: var(--espresso);
 }
 
+.hours-note {
+  margin: var(--spacing-xs) 0 0;
+  font-family: var(--font-body);
+  font-size: 14px;
+  color: var(--grey-text);
+  font-style: italic;
+}
+
+.footer-location-label {
+  font-weight: 500;
+  color: var(--grey-text);
+}
+
 .social-links {
   display: flex;
   gap: var(--spacing-md);

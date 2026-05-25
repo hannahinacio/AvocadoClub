@@ -12,8 +12,15 @@ function Footer() {
           <h3 className="footer-heading">Get in Touch</h3>
           <div className="footer-contact">
             <p>
+              <span className="footer-location-label">Mitte</span>{' '}
               <a href="tel:03022325570" className="footer-link">
                 03022325570
+              </a>
+            </p>
+            <p>
+              <span className="footer-location-label">Charlottenburg</span>{' '}
+              <a href="tel:03079302266" className="footer-link">
+                030 79302266
               </a>
             </p>
             <p>
