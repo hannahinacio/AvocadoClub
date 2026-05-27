@@ -812,6 +812,32 @@ section {
   margin-bottom: var(--spacing-sm);
 }
 
+.booking-locations {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--spacing-lg);
+}
+
+.booking-location {
+  background-color: var(--cream);
+  border: 1px solid rgba(39, 27, 22, 0.16);
+  border-radius: 14px;
+  padding: var(--spacing-md);
+  box-shadow: 0 6px 18px rgba(39, 27, 22, 0.05);
+}
+
+.booking-location-title {
+  margin: 0;
+  font-family: var(--font-sans);
+  font-size: clamp(18px, 2vw, 24px);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--espresso);
+  text-align: center;
+  border-bottom: 1px solid rgba(39, 27, 22, 0.16);
+  padding-bottom: var(--spacing-xs);
+}
+
 .booking-form {
   margin-top: var(--spacing-sm);
 }
@@ -820,21 +846,24 @@ section {
   margin-top: var(--spacing-md);
   min-height: 420px;
   width: 100%;
-  border: 1px solid rgba(39, 27, 22, 0.12);
-  border-radius: 8px;
+  border: 1px solid rgba(39, 27, 22, 0.14);
+  border-radius: 10px;
   overflow: hidden;
-  background-color: var(--cream);
+  background-color: #f4f1ec;
 }
 
 .booking-widget-embed {
   min-height: 420px;
+  height: 420px;
   width: 100%;
+  border: none;
+  display: block;
 }
 
 /* Scope Dish widget iframe to wrapper */
 .booking-widget-wrapper iframe {
   border: none !important;
-  border-radius: 8px;
+  border-radius: 10px;
 }
 
 .booking-widget {
@@ -853,16 +882,21 @@ section {
 }
 
 /* Overrides for Dish.co widget when it renders in-page (not in iframe) */
-#hors-hydra-21399518-8538-4bfb-8646-17e78f4e857a {
+#hors-hydra-21399518-8538-4bfb-8646-17e78f4e857a,
+#hors-hydra-f90af65f-c35c-4a3f-a762-96f124afded6 {
   font-family: var(--font-body);
 }
 #hors-hydra-21399518-8538-4bfb-8646-17e78f4e857a input,
 #hors-hydra-21399518-8538-4bfb-8646-17e78f4e857a select,
-#hors-hydra-21399518-8538-4bfb-8646-17e78f4e857a textarea {
+#hors-hydra-21399518-8538-4bfb-8646-17e78f4e857a textarea,
+#hors-hydra-f90af65f-c35c-4a3f-a762-96f124afded6 input,
+#hors-hydra-f90af65f-c35c-4a3f-a762-96f124afded6 select,
+#hors-hydra-f90af65f-c35c-4a3f-a762-96f124afded6 textarea {
   font-family: var(--font-body);
   border-color: var(--espresso);
 }
-#hors-hydra-21399518-8538-4bfb-8646-17e78f4e857a iframe {
+#hors-hydra-21399518-8538-4bfb-8646-17e78f4e857a iframe,
+#hors-hydra-f90af65f-c35c-4a3f-a762-96f124afded6 iframe {
   border-radius: 4px;
 }
 

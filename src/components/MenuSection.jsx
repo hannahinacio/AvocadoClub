@@ -2,10 +2,12 @@ import React from 'react'
 import avoImage from '../assets/avo.jpg'
 import menuEnglishPdf from '../../Menu-English.pdf'
 import menuGermanPdf from '../../Menu-German.pdf'
+import menuDinnerPdf from '../../AVO DINNER 04-26 II.pdf'
 
 const MENU_LINKS = [
   { label: 'menu english', href: menuEnglishPdf },
-  { label: 'menu deustsch', href: menuGermanPdf }
+  { label: 'menu deustsch', href: menuGermanPdf },
+  { label: 'dinner menu', href: menuDinnerPdf }
 ]
 
 function MenuSection() {
