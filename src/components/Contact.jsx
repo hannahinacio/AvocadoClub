@@ -89,7 +89,7 @@ function Contact() {
             <div className="contact-item">
               <h3>Opening Hours</h3>
               <div className="hours-list">
-                          <div className="hours-row">
+                <div className="hours-row">
                   <span className="hours-day">Monday</span>
                   <span className="hours-time">10:00 – 17:00 (No Dinner)</span>
                 </div>
